@@ -5,19 +5,18 @@
 
 h1 {
     display:flex;
-    justify-content:flex-start;
-    margin-right: 840px;
+    margin-right: 840px; 
     margin-top:5px;
     background-color: aquamarine; 
     font-size:30px;
     padding:20px;
     border-radius:10px;
-    color:darkblue;
     
 }
 
 nav {
-    background: linear-gradient(rgb(5, 0, 80), darkblue);
+    background: linear-gradient(rgb(5, 0, 80), darkblue, black);
+    height:100px
 }
 
 
@@ -32,20 +31,45 @@ li{
     justify-content:flex-end;
     padding:10px;
     color:aquamarine;
-    font-size:large;
-    margin-top: 25px
+    font-size:larger;
+    margin-top: 25px;
 }
 
 li:hover{
     cursor:grab;
+    color:white;
+    text-decoration: underline;
+
 }
 
+li:active{
+    cursor:grabbing;
+    color:grey;
+
+}
+
+.bluebg {
+    width:100%;
+    height:400px;
+    z-index: -1;
+    
+    
+}
+
+.imgtext {
+    color:white;
+}
+
+
+
 aside{
+    background-color: transparent;
     padding:20px;
 }
 
 main{
     height:500px;
+    background-color: transparent;
 }
 
 footer ul {
@@ -53,6 +77,6 @@ footer ul {
     flex-direction:row;
     justify-content:space-around;
     font-size:20px;
-    
+    font-weight: bolder;    
 }
 
