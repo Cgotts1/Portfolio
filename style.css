@@ -49,12 +49,25 @@ li:active{
 }
 
 .bluebg {
+    position: absolute;
     width:100%;
     height:400px;
-    z-index: -1;
-    
-    
+    z-index: -1;    
 }
+
+.profilepic {
+border-right:solid 20px;
+border-left:solid 20px;
+
+}
+
+.imgtext{
+    position: absolute;
+    color:white;
+    margin-left:100px;
+}
+
+
 
 .imgtext {
     color:white;
@@ -62,14 +75,88 @@ li:active{
 
 
 
-aside{
+.aside1 {
+    position:absolute;
+    height: 200px;
+    width:200px;
     background-color: transparent;
     padding:20px;
+    font-size: 30px;
+    border-right:solid 5px;
+}
+
+.aboutparagraph{
+    margin-top: 40px;
+    margin-left:300px;
+}
+
+.aside2 {
+    position:absolute;
+    padding:20px;
+    height:200px;
+    width:200px;
+    font-size: 30px;
+    border-right: solid 5px;
+    margin-top:40px
 }
 
 main{
     height:500px;
-    background-color: transparent;
+    background-color: aliceblue;
+}
+
+.work1 {
+    position:absolute;
+    margin-top:30px;
+    margin-left:300px
+}
+
+.work1:hover {
+    background-color: black;
+    border:solid 5px;
+    cursor:grab;
+   
+}
+
+.work2 {
+    position:absolute;
+    margin-left:725px;
+    margin-top:32px;
+}
+
+.work2:hover {
+    background-color: black;
+    border:solid 5px;
+    cursor:grab;
+   
+}
+
+.work3 {
+    position: absolute;
+    margin-left:1150px;
+    margin-top:32px;
+}
+
+.work3:hover {
+    background-color: black;
+    border:solid 5px;
+    cursor:grab;
+   
+}
+
+.aside3{
+    padding:20px;
+    height:20px;
+    width:200px;
+    font-size: 30px;
+    border-right: solid 5px;  
+    margin-bottom: 10px;
+
+}
+
+footer {
+    background-color: aliceblue;
+    height: 140px;
 }
 
 footer ul {
@@ -80,3 +167,4 @@ footer ul {
     font-weight: bolder;    
 }
 
+    
